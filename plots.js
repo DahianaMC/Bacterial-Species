@@ -163,11 +163,12 @@ function buildCharts(sample) {
     var trace1 = {
       y: resultSamples.sample_values,
       x: resultSamples.otu_ids,
-            mode: 'markers',
+      text: resultSamples.otu_labels,
+                  mode: 'markers',
       marker: {
         color: resultSamples.otu_ids,
         colorscale: 'Jet',
-        size: resultSamples.sample_values
+        size: resultSamples.sample_values,
       }
     };
     
@@ -175,6 +176,7 @@ function buildCharts(sample) {
     
     var layout = {
       title: '<b>Relative Frequency of All the Bacterial Species by Individual</b>',
+      showlegend: false,
     };
     
     Plotly.newPlot("bubble", data, layout);
