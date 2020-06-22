@@ -154,7 +154,7 @@ function buildCharts(sample) {
     var data = [trace];
 
     var layout = {
-      title: 'Top Ten Bacterial Species by Individual',
+      title: '<b>Top Ten Bacterial Species by Individual</b>',
     };
 
     Plotly.newPlot("bar", data, layout);
@@ -174,7 +174,7 @@ function buildCharts(sample) {
     var data = [trace1];
     
     var layout = {
-      title: 'Relative Frequency of All the Bacterial Species by Individual',
+      title: '<b>Relative Frequency of All the Bacterial Species by Individual</b>',
     };
     
     Plotly.newPlot("bubble", data, layout);
