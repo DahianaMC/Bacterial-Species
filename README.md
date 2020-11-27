@@ -14,7 +14,8 @@
 ### Demographic Information
 - The data came from data.metadata.  We are using object.entries and forEach methods to call each object from the metadata array.
 
-### Extra Challenge: Adding a gauge chart
-- It was very challenge to get this one displayed, the needle is moving properly depending on belly buttom washing frequency, but I could not figure it out how to put the neddle in the middle of the gauge.  I left the gauge in the plot becuase is almost done and I would like to know how to put it in the middle.  I will update my code after knowing how to do this.
+### Extra Challenge: Gauge chart
+- The gauge shows the ranges of the data.
+
 
 
